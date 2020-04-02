@@ -7,10 +7,10 @@ NC='\033[0m' # No Color
 
 DB_DIR="/db"
 UPDATE_ONLY=0
-UPDATE_PYTHON=0
+UPDATE_PYTHON=1
 VERBOSE=0
 USE_ROCKSDB=1
-ELECTRUMX_GIT_URL="https://github.com/kyuupichan/electrumx"
+ELECTRUMX_GIT_URL="https://github.com/NodeCoin-Dev/electrumx"
 ELECTRUMX_GIT_BRANCH=""
 
 installer=$(realpath $0)
